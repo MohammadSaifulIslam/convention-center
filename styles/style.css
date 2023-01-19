@@ -3,7 +3,15 @@ body {
 
 }
 
-/* navbar start */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* common css end */
 /* navbar start */
 /* navbar start */
 header {
@@ -33,32 +41,118 @@ header {
 
 /* bannar-slider end */
 /* about part end */
-.about{
+.about {
     margin-bottom: 100px;
 }
+
 .about-text h2 {
     font-weight: 700;
     font-size: 38px;
     color: #0A0826;
 }
-.about-text p{
+
+.about-text p {
     font-weight: 700;
-font-size: 16px;
-line-height: 28px;
-color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
 }
 
 
-.about-toast{
+.about-toast {
     box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.15);
-    
+
 }
-/* about part end */
-
-
 
 /* about part end */
-/* about part end */
+/* our package part end */
+.package {
+    margin-bottom: 100px;
+}
+
+.package-item{
+    transition: all linear .4s;
+    transform: translateX(0);
+}
+.package-item:hover {
+    padding: 30px 30px 30px;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    transform: translateY(-90px);
+}
+.package-item:hover h3{
+    color: #ffffff;
+}
+.package-item:hover h5{
+    color: #ffffff;
+}
+.package-item:hover p{
+    color: #ffffff;
+}
+.package-item:hover li{
+    color: #ffffff;
+}
+.package-item:hover .plan-btn{
+    background: #ffffff;
+}
+
+.section-header h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 100px;
+}
+
+.plan-btn {
+    padding: 14px 60px;
+    background: rgb(244, 150, 209, 0.1);
+    border-radius: 24px;
+    color: #3F87F5;
+
+}
+
+.package h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #231D4F;
+    font-family: 'Roboto', sans-serif
+}
+
+.package h5 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #231D4F;
+    font-family: 'Roboto', sans-serif
+}
+
+.package ul {
+    padding: 0 !important;
+    margin-bottom: 40px !important;
+}
+
+.package p,
+li {
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+    margin-bottom: 5px;
+}
+
+.package ul li i {
+    width: 20px;
+    height: 20px;
+    color: #5243C2;
+    background: #edecf9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px !important;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* our package part end */
 /* about part end */
 /* about part end */
 /* about part end */
