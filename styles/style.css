@@ -6,9 +6,10 @@ body {
 /* navbar start */
 /* navbar start */
 /* navbar start */
-header{
+header {
     margin-bottom: 100px;
 }
+
 .nav-header {
     font-weight: 700;
     font-size: 22px;
@@ -23,11 +24,44 @@ header{
 
 /* navbar end */
 /* bannar-slider end */
-.slider-text{
+.slider-text {
     width: 600px;
     margin: 0 auto;
 }
-.slider-text a{
-  
-}
+
+
+
 /* bannar-slider end */
+/* about part end */
+.about{
+    margin-bottom: 100px;
+}
+.about-text h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.about-text p{
+    font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+}
+
+
+.about-toast{
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.15);
+    
+}
+/* about part end */
+
+
+
+/* about part end */
+/* about part end */
+/* about part end */
+/* about part end */
+/* about part end */
+/* about part end */
+/* about part end */
+/* about part end */
